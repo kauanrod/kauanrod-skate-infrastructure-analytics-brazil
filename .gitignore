@@ -1,0 +1,75 @@
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+# ===================================
+# Environment / secrets
+# ===================================
+.env
+.env.*
+!.env.example
+
+secrets.json
+
+# ===================================
+# Jupyter
+# ===================================
+.ipynb_checkpoints/
+notebooks/scratch/
+notebooks/tmp/
+
+# ===================================
+# Dados
+# ===================================
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.geojson
+data/raw/*.parquet
+
+data/interim/
+data/processed/
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# ===================================
+# Geospatial / GIS
+# ===================================
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojsonl
+
+# ===================================
+# Outputs
+# ===================================
+outputs/
+reports/figures/generated/
+*.html
+
+# ===================================
+# Logs
+# ===================================
+logs/
+*.log
+
+# ===================================
+# IDE
+# ===================================
+.vscode/
+.idea/
+.DS_Store
+
+# ===================================
+# Futuro pipeline
+# ===================================
+.pytest_cache/
+coverage/
