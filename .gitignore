@@ -26,13 +26,13 @@ notebooks/tmp/
 # ===================================
 # Dados
 # ===================================
-data/raw/*.csv
-data/raw/*.json
+# data/raw/*.csv
+# data/raw/*.json
 data/raw/*.geojson
 data/raw/*.parquet
 
 data/interim/
-data/processed/
+# data/processed/
 
 !data/raw/.gitkeep
 !data/interim/.gitkeep
