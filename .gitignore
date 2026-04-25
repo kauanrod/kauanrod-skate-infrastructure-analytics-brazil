@@ -53,7 +53,6 @@ data/processed/
 # ===================================
 outputs/
 reports/figures/generated/
-*.html
 
 # ===================================
 # Logs
