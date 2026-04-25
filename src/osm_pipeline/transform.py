@@ -12,11 +12,11 @@ def transform(data):
         registros.append(
             {
                 "osm_id": element.get("id"),
-                "nome": tags.get("name"),
-                "cidade": tags.get("addr:city"),
-                "estado": tags.get("addr:state"),
-                "latitude": lat,
-                "longitude": lon,
+                "name": tags.get("name"),
+                "city": tags.get("addr:city"),
+                "state": tags.get("addr:state"),
+                "lat": lat,
+                "lon": lon,
             }
         )
 
